@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:1-38:12
 MERGED from [com.highcapable.yukihookapi:api:1.2.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/62dbc3affb50ac343b38bc2186c89170/transformed/api-1.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/67bf0e3aaa8fa5d2404b225df54b5545/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/448061f29937f06d98c3433ddb8630a3/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -69,8 +69,8 @@ MERGED from [com.github.tiann:FreeReflection:3.2.0] /Users/zhangbaosheng/.gradle
 	xmlns:android
 		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:5:5-34:19
-INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:5:5-34:19
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:5:5-37:19
+INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:5:5-37:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/67bf0e3aaa8fa5d2404b225df54b5545/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/67bf0e3aaa8fa5d2404b225df54b5545/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/aa9a247421234e06ed02e25a7dd9e8e2/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -115,38 +115,44 @@ ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹
 		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:17:13-51
 	android:name
 		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:16:13-39
-meta-data#xposeddescription
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:18:9-20:51
+meta-data#xposedsharedprefs
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:18:9-20:36
 	android:value
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:20:13-48
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:20:13-33
 	android:name
 		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:19:13-45
-meta-data#xposedminversion
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:21:9-23:34
+meta-data#xposeddescription
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:21:9-23:51
 	android:value
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:23:13-31
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:23:13-48
 	android:name
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:22:13-45
+meta-data#xposedminversion
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:24:9-26:34
+	android:value
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:26:13-31
+	android:name
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:25:13-44
 activity#com.wizpizz.wechatguard.ui.activity.MainActivity
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:26:13-53
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:29:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:de.robv.android.xposed.category.MODULE_SETTINGS
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:33:27-74
 category#de.robv.android.xposed.category.MODULE_SETTINGS
-ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:31:17-92
+ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:34:17-92
 	android:name
-		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:31:27-89
+		ADDED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:34:27-89
 uses-sdk
 INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml

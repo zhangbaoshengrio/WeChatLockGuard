@@ -11,8 +11,8 @@ drawable bg_dark_round
 drawable bg_green_round
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id duration_seek_bar
-id duration_value_text
+id delay_seek_bar
+id delay_value_text
 id enable_switch
 id main_lin_status
 id main_text_status
@@ -20,11 +20,11 @@ layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-string duration_value
+string delay_value
 string module_is_activated
 string module_not_activated
-string pref_duration_desc
-string pref_duration_title
+string pref_delay_desc
+string pref_delay_title
 string pref_enable_title
 string reboot_note
 string xposed_desc

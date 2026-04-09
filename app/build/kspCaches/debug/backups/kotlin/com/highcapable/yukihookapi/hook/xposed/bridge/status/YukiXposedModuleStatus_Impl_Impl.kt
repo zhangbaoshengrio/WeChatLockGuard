@@ -10,7 +10,7 @@ import androidx.annotation.Keep
  *
  * Compiled from YukiHookXposedProcessor
  *
- * Generate Date: Apr 9, 2026, 9:21:18 AM
+ * Generate Date: Apr 9, 2026, 9:46:50 AM
  *
  * Powered by YukiHookAPI (C) HighCapable 2019-2024
  *
@@ -21,50 +21,50 @@ object YukiXposedModuleStatus_Impl_Impl_com_wizpizz_wechatguard {
 
     @JvmStatic
     @JvmName("__--")
-    fun function57910(): Boolean {
+    fun function48132(): Boolean {
         phe()
         return false
     }
 
     @JvmStatic
     @JvmName("_--_")
-    fun function88542(): Boolean {
+    fun function97387(): Boolean {
         phe()
         return false
     }
 
     @JvmStatic
     @JvmName("_-_-")
-    fun function74378(): String {
+    fun function32204(): String {
         phe()
         return "unknown"
     }
 
     @JvmStatic
     @JvmName("-__-")
-    fun function98575(): Int {
+    fun function40450(): Int {
         phe()
         return -1
     }
 
     @JvmStatic
     @JvmName("-_-_")
-    fun function69281(): String {
+    fun function42024(): String {
         phe()
         return "unknown"
     }
 
     @JvmStatic
     @JvmName("___-")
-    fun function89847(): Int {
+    fun function2085(): Int {
         phe()
         return -1
     }
 
     @JvmStatic
-    @JvmName("_86874")
+    @JvmName("_65797")
     private fun phe() {
         /** Consume a long method body */
-        if (System.currentTimeMillis() == 0L) Log.d("7485", "760999")
+        if (System.currentTimeMillis() == 0L) Log.d("2563", "819897")
     }
 }

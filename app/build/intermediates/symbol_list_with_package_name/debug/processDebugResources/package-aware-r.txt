@@ -3223,6 +3223,8 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delay_seek_bar
+id delay_value_text
 id deltaRelative
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -3243,8 +3245,6 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
-id duration_seek_bar
-id duration_value_text
 id easeIn
 id easeInOut
 id easeOut
@@ -3837,7 +3837,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
 string copy
-string duration_value
+string delay_value
 string error_a11y_label
 string error_icon_content_description
 string expand_button_title
@@ -3955,8 +3955,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string pref_duration_desc
-string pref_duration_title
+string pref_delay_desc
+string pref_delay_title
 string pref_enable_title
 string preference_copied
 string reboot_note

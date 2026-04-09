@@ -15,7 +15,7 @@ object HookEntry : IYukiHookXposedInit {
             }
         }
 
-        loadApp(name = "com.tencent.mm") {
+        loadApp(name = "com.android.systemui") {
             LockGuardHook.apply(this)
         }
     }

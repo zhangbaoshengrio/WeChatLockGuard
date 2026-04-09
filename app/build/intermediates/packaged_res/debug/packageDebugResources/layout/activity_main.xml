@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <!-- Guard Duration Card -->
+        <!-- Detection Delay Card -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/pref_duration_title"
+                android:text="@string/pref_delay_title"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -96,16 +96,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@string/pref_duration_desc"
+                android:text="@string/pref_delay_desc"
                 android:textColor="#CCFFFFFF"
                 android:textSize="13sp" />
 
             <SeekBar
-                android:id="@+id/duration_seek_bar"
+                android:id="@+id/delay_seek_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:max="19" />
+                android:max="30" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -116,12 +116,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="100 ms"
+                    android:text="0 ms"
                     android:textColor="#AAFFFFFF"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/duration_value_text"
+                    android:id="@+id/delay_value_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -129,12 +129,12 @@
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    tools:text="500 ms" />
+                    tools:text="1000 ms" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2000 ms"
+                    android:text="3000 ms"
                     android:textColor="#AAFFFFFF"
                     android:textSize="12sp" />
             </LinearLayout>
