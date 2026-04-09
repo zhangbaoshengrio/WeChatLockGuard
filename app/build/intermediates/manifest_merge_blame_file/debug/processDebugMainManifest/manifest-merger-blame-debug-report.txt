@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wizpizz.wechatguard"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.16.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/88304fd7fada97b483e39b6f434cf739/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.wizpizz.wechatguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.16.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/88304fd7fada97b483e39b6f434cf739/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.16.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/88304fd7fada97b483e39b6f434cf739/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.wizpizz.wechatguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.16.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/88304fd7fada97b483e39b6f434cf739/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.16.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/88304fd7fada97b483e39b6f434cf739/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:5:5-34:19
+18        android:name="com.wizpizz.wechatguard.application.DefaultApplication"
+18-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:6:9-55
+19        android:allowBackup="true"
+19-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.16.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/88304fd7fada97b483e39b6f434cf739/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:8:9-43
+24        android:label="@string/app_name"
+24-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:9:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:10:9-54
+26        android:supportsRtl="true"
+26-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:11:9-35
+27        android:theme="@style/Theme.AppDefault" >
+27-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:12:9-48
+28        <meta-data
+28-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:15:9-17:54
+29            android:name="xposedscope"
+29-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:16:13-39
+30            android:resource="@array/module_scope" />
+30-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:17:13-51
+31        <meta-data
+31-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:18:9-20:51
+32            android:name="xposeddescription"
+32-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:19:13-45
+33            android:value="@string/xposed_desc" />
+33-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:20:13-48
+34        <meta-data
+34-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:21:9-23:34
+35            android:name="xposedminversion"
+35-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:22:13-44
+36            android:value="93" />
+36-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:23:13-31
+37
+38        <activity
+38-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:25:9-33:20
+39            android:name="com.wizpizz.wechatguard.ui.activity.MainActivity"
+39-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:26:13-53
+40            android:exported="true" >
+40-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:27:13-36
+41            <intent-filter>
+41-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:28:13-32:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:29:17-69
+42-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:30:17-77
+44-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:30:27-74
+45                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+45-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:31:17-92
+45-->/Users/zhangbaosheng/Python_files/♥️claude code项目总文件夹/WeChatLockGuard/app/src/main/AndroidManifest.xml:31:27-89
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+51            android:authorities="com.wizpizz.wechatguard.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.3.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/16d42221350b85c0ca97d13f6b613aa6/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/c113ccf1c704c723b82f4797379a9b9a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/c113ccf1c704c723b82f4797379a9b9a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/c113ccf1c704c723b82f4797379a9b9a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+61                android:value="androidx.startup" />
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+62        </provider>
+63
+64        <uses-library
+64-->[androidx.window:window:1.0.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/1d3f4b94135f93e2c8aec363f9e0faf0/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+65            android:name="androidx.window.extensions"
+65-->[androidx.window:window:1.0.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/1d3f4b94135f93e2c8aec363f9e0faf0/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/1d3f4b94135f93e2c8aec363f9e0faf0/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+67        <uses-library
+67-->[androidx.window:window:1.0.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/1d3f4b94135f93e2c8aec363f9e0faf0/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+68            android:name="androidx.window.sidecar"
+68-->[androidx.window:window:1.0.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/1d3f4b94135f93e2c8aec363f9e0faf0/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/1d3f4b94135f93e2c8aec363f9e0faf0/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangbaosheng/.gradle/caches/8.13/transforms/12f0615d7776b206b21765794ada4cd6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>
