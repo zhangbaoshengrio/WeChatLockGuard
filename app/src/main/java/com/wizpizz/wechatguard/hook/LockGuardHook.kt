@@ -52,14 +52,53 @@ object LockGuardHook {
                             Log.d(TAG, "Proximity: ${event.values[0]}, covered=$covered")
                             if (covered && powerManager?.isInteractive == true) {
                                 Log.i(TAG, "In pocket while screen on, turning screen off")
-                                try {
-                                    val goToSleep = PowerManager::class.java
-                                        .getDeclaredMethod("goToSleep", Long::class.javaPrimitiveType)
+                                // Try multiple methods in order of preference
+                                var success = false
+
+                                // Method 1: goToSleep with reason flag (Android 10+)
+                                if (!success) try {
+                                    val goToSleep = PowerManager::class.java.getDeclaredMethod(
+                                        "goToSleep", Long::class.javaPrimitiveType, Int::class.javaPrimitiveType, Int::class.javaPrimitiveType
+                                    )
+                                    goToSleep.isAccessible = true
+                                    goToSleep.invoke(powerManager, System.currentTimeMillis(), 2 /* GO_TO_SLEEP_REASON_TIMEOUT */, 0)
+                                    success = true
+                                    Log.d(TAG, "goToSleep(3-arg) succeeded")
+                                } catch (e: Exception) {
+                                    Log.d(TAG, "goToSleep(3-arg) failed: ${e.message}")
+                                }
+
+                                // Method 2: goToSleep simple
+                                if (!success) try {
+                                    val goToSleep = PowerManager::class.java.getDeclaredMethod(
+                                        "goToSleep", Long::class.javaPrimitiveType
+                                    )
                                     goToSleep.isAccessible = true
                                     goToSleep.invoke(powerManager, System.currentTimeMillis())
+                                    success = true
+                                    Log.d(TAG, "goToSleep(1-arg) succeeded")
                                 } catch (e: Exception) {
-                                    Log.e(TAG, "goToSleep failed: ${e.message}")
+                                    Log.d(TAG, "goToSleep(1-arg) failed: ${e.message}")
                                 }
+
+                                // Method 3: IWindowManager.lockNow via service
+                                if (!success) try {
+                                    val serviceManager = Class.forName("android.os.ServiceManager")
+                                    val getService = serviceManager.getDeclaredMethod("getService", String::class.java)
+                                    val wmBinder = getService.invoke(null, "window")
+                                    val stub = Class.forName("android.view.IWindowManager\$Stub")
+                                    val asInterface = stub.getDeclaredMethod("asInterface", android.os.IBinder::class.java)
+                                    val wm = asInterface.invoke(null, wmBinder)
+                                    val lockNow = wm?.javaClass?.getDeclaredMethod("lockNow", android.os.Bundle::class.java)
+                                    lockNow?.isAccessible = true
+                                    lockNow?.invoke(wm, null)
+                                    success = true
+                                    Log.d(TAG, "lockNow succeeded")
+                                } catch (e: Exception) {
+                                    Log.d(TAG, "lockNow failed: ${e.message}")
+                                }
+
+                                if (!success) Log.e(TAG, "All screen-off methods failed")
                             }
                         }
                         override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {}
