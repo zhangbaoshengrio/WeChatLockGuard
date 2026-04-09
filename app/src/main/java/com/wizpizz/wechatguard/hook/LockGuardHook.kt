@@ -17,7 +17,7 @@ private const val TAG = "WeChatLockGuard"
 
 const val PREF_ENABLED = "lock_guard_enabled"
 const val PREF_DELAY_MS = "screen_on_delay_ms"
-const val DEFAULT_DELAY_MS = 1000  // 1 second delay before proximity monitoring starts
+const val DEFAULT_DELAY_MS = 0  // no delay, start monitoring immediately on screen on
 
 object LockGuardHook {
 
